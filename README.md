@@ -14,7 +14,7 @@
 
 1. Клонируйте репозиторий на свой компьютер.
 ```bash
-git clone https://github.com/yourusername/java-design-patterns.git
+git clone https://github.com/yourusername/exceptionTask.git
 ```
 3. Откройте проект в вашей IDE (например, IntelliJ IDEA).
 4. Запустите приложение и следуйте инструкциям для каждого задания.

@@ -18,7 +18,6 @@ public class Main {
         } catch (EmptyListException e) {
             System.out.println(e.getMessage());
         }
-
         List<Person> filteredPeople = people.stream()
                 .filter(person -> person.getAge() > 10).collect(Collectors.toList());
         try {
@@ -30,7 +29,6 @@ public class Main {
         } catch (NoMatchingDataException e) {
             System.out.println(e.getMessage());
         }
-
         List<Person> sortedPeople = people.stream()
                 .sorted(Comparator.comparing(Person::getAge)
                         .thenComparing(Person::getName)
@@ -45,7 +43,6 @@ public class Main {
         } catch (SortingException e) {
             System.out.println(e.getMessage());
         }
-
         try {
             String aggregation = people.stream()
                     .map(Person::getName)
